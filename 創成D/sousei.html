@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<body style="background-color:rgb(247, 248, 248);">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アンケート</title>
+</head>
+
+<form method="post" action="example.cgi">
+
+<p>アンケートの評価方法
+<p>1:ダメ 2:どちらかと言えばダメ 3:普通 4:どちらかと言えば良い 5:良い
+<body>
+    <p>今学期の授業の理解度は？<br>
+    <input type="radio" name="1" value="1">1
+    <input type="radio" name="1" value="2">2
+    <input type="radio" name="1" value="3">3
+    <input type="radio" name="1" value="4">4
+    <input type="radio" name="1" value="5">5
+<br>
+
+<label for=”message”>理由</label><br>
+<textarea name="message" rows=”20″ cols=”80″ id=”message”></textarea>
+<br>
+
+<body>
+    <p>今学期の出席率は？<br>
+    <input type="radio" name="2" value="1">1
+    <input type="radio" name="2" value="2">2
+    <input type="radio" name="2" value="3">3
+    <input type="radio" name="2" value="4">4
+    <input type="radio" name="2" value="5">5
+<br>
+
+<body>
+    <p>今学期の単位の取得率は？<br>
+    <input type="radio" name="3" value="1">1
+    <input type="radio" name="3" value="2">2
+    <input type="radio" name="3" value="3">3
+    <input type="radio" name="3" value="4">4
+    <input type="radio" name="3" value="5">5
+<br>
+
+<button type="submit" name="btn_confirm">入力内容を確認する</button>
+</form>
+<?php endif; ?>
+</div>
+
+<p>
+<input type="submit">
+<input type="reset">
+</p>
+
+</body>
+</html>
